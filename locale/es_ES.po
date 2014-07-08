@@ -1,0 +1,19 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.opportunity.create_campaign.start,all_contacts:"
+msgid "All Contacts"
+msgstr "Todos los contactos"
+
+msgctxt "field:sale.opportunity.create_campaign.start,relation:"
+msgid "Relation"
+msgstr "Relación"
+
+msgctxt "help:sale.opportunity.create_campaign.start,all_contacts:"
+msgid ""
+"If marked a lead will be created for each contact of the  selected type. "
+"Otherwise only the first one fill be used."
+msgstr ""
+"Si se merca se creará una iniciativa para cada uno de los contactos del tipo"
+" seleccionado. Sino, solo se utilizará el primero."
