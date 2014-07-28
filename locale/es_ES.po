@@ -2,13 +2,107 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "field:party.relation.type,available_on_campaign:"
+msgid "Available on campaing"
+msgstr "Disponible en campañas"
+
+msgctxt "field:sale.opportunity.campaign-party.party,campaing:"
+msgid "Campaign"
+msgstr "Campaña"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:sale.opportunity.campaign-party.party,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:sale.opportunity.campaign-party.party,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:sale.opportunity.campaign-party.party,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:party.relation.type,available_on_campaign:"
+msgid "Available on campaing"
+msgstr "Disponible en campañas"
+
+msgctxt "field:sale.opportunity.campaign-party.party,campaing:"
+msgid "Campaign"
+msgstr "Campaña"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_date:"
+msgid "Create Date"
+msgstr "Fecha de creación"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_uid:"
+msgid "Create User"
+msgstr "Usuario de creación"
+
+msgctxt "field:sale.opportunity.campaign-party.party,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:sale.opportunity.campaign-party.party,party:"
+msgid "Party"
+msgstr "Tercero"
+
+msgctxt "field:sale.opportunity.campaign-party.party,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
 msgctxt "field:sale.opportunity.create_campaign.start,all_contacts:"
 msgid "All Contacts"
 msgstr "Todos los contactos"
 
+msgctxt "field:sale.opportunity.create_campaign.start,create_leads:"
+msgid "Create Leads"
+msgstr "Crear iniciativas"
+
+msgctxt "field:sale.opportunity.create_campaign.start,create_leads:"
+msgid "Create Leads"
+msgstr "Crear iniciativas"
+
 msgctxt "field:sale.opportunity.create_campaign.start,relation:"
 msgid "Relation"
 msgstr "Relación"
+
+<<<<<<<
+=======
+msgctxt "field:sale.opportunity.create_campaign.start,relation_visible:"
+msgid "Relation Visible"
+msgstr "Relación visible"
+
+msgctxt "help:sale.opportunity.create_campaign.start,all_contacts:"
+msgid ""
+"If marked a lead will be created for each contact of the  selected type. "
+>>>>>>>
+msgctxt "field:sale.opportunity.create_campaign.start,relation_visible:"
+msgid "Relation Visible"
+msgstr "Relación visible"
 
 msgctxt "help:sale.opportunity.create_campaign.start,all_contacts:"
 msgid ""
@@ -17,3 +111,25 @@ msgid ""
 msgstr ""
 "Si se merca se creará una iniciativa para cada uno de los contactos del tipo"
 " seleccionado. Sino, solo se utilizará el primero."
+
+msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
+msgid ""
+"If marked a lead will be created for each party and related to the party"
+msgstr ""
+"Si se marca se creará una iniciativa para cada tercero relacionada con la "
+"campaña."
+
+msgctxt "wizard_button:sale.opportunity.create_campaign,start,create_:"
+msgid "Create"
+msgstr "Crear"
+
+msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
+msgid ""
+"If marked a lead will be created for each party and related to the party"
+msgstr ""
+"Si se marca se creará una iniciativa para cada tercero relacionada con la "
+"campaña."
+
+msgctxt "wizard_button:sale.opportunity.create_campaign,start,create_:"
+msgid "Create"
+msgstr "Crear"

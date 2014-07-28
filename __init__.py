@@ -7,6 +7,7 @@ from .opportunity import *
 def register():
     Pool.register(
         Relation,
+        PartyCampaign,
         CreateCampaignStart,
         module='sale_opportunity_campaign_contact', type_='model')
     Pool.register(

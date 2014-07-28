@@ -3,8 +3,10 @@
 from trytond.model import fields
 from trytond.pool import Pool, PoolMeta
 from trytond.pyson import Bool, Eval
+from trytond.transaction import Transaction
 
-__all__ = ['Relation', 'CreateCampaignStart', 'CreateCampaign']
+__all__ = ['Relation', 'PartyCampaign', 'CreateCampaignStart',
+    'CreateCampaign']
 __metaclass__ = PoolMeta
 
 
@@ -51,6 +53,48 @@ class Relation:
             return [('id', reverse[operator], allowed)]
 
 
+class PartyCampaign:
+    __name__ = 'sale.opportunity.campaign-party.party'
+
+    def _get_opportunities(self):
+        opportunities = super(PartyCampaign, self)._get_opportunities()
+        relation = Transaction().context.get('relation')
+        if relation:
+            new_opportunities = []
+            for relation in self.party.relations:
+                if relation.type.id == relation:
+                    for opportunity in opportunities:
+                        new_opportunity = opportunity.copy()
+                        new_opportunity['contact'] = relation.to.id
+                        new_opportunities.append(new_opportunity)
+                    if not self.start.all_contacts:
+                        break
+            if new_opportunities:
+                return new_opportunities
+        return opportunities
+
+
+class PartyCampaign:
+    __name__ = 'sale.opportunity.campaign-party.party'
+
+    def _get_opportunities(self):
+        opportunities = super(PartyCampaign, self)._get_opportunities()
+        relation = Transaction().context.get('relation')
+        if relation:
+            new_opportunities = []
+            for relation in self.party.relations:
+                if relation.type.id == relation:
+                    for opportunity in opportunities:
+                        new_opportunity = opportunity.copy()
+                        new_opportunity['contact'] = relation.to.id
+                        new_opportunities.append(new_opportunity)
+                    if not self.start.all_contacts:
+                        break
+            if new_opportunities:
+                return new_opportunities
+        return opportunities
+
+
 class CreateCampaignStart:
     __name__ = 'sale.opportunity.create_campaign.start'
     relation_visible = fields.Boolean('Relation Visible')
@@ -80,19 +124,9 @@ class CreateCampaign:
         config = Config(1)
         return {'relation_visible': bool(config.relation_types)}
 
-    def _get_opportunities(self, campaign, party):
-        opportunities = super(CreateCampaign, self)._get_opportunities(
-            campaign, party)
+    def do_leads(self, action):
+        context = {}
         if self.start.relation:
-            new_opportunities = []
-            for relation in party.relations:
-                if relation.type == self.start.relation:
-                    for opportunity in opportunities:
-                        new_opportunity = opportunity.copy()
-                        new_opportunity['contact'] = relation.to.id
-                        new_opportunities.append(new_opportunity)
-                    if not self.start.all_contacts:
-                        break
-            if new_opportunities:
-                return new_opportunities
-        return opportunities
+            context['relation'] = self.start.relation.id
+        with Transaction().set_context(context):
+            return super(CreateCampaign, self).do_leads(action)

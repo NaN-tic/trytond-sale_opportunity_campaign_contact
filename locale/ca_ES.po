@@ -2,13 +2,107 @@
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
+msgctxt "field:party.relation.type,available_on_campaign:"
+msgid "Available on campaing"
+msgstr "Disponible en campanyes"
+
+msgctxt "field:sale.opportunity.campaign-party.party,campaing:"
+msgid "Campaign"
+msgstr "Campanya"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:sale.opportunity.campaign-party.party,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:sale.opportunity.campaign-party.party,party:"
+msgid "Party"
+msgstr "Tercer"
+
+msgctxt "field:sale.opportunity.campaign-party.party,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:party.relation.type,available_on_campaign:"
+msgid "Available on campaing"
+msgstr "Disponible en campanyes"
+
+msgctxt "field:sale.opportunity.campaign-party.party,campaing:"
+msgid "Campaign"
+msgstr "Campanya"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_date:"
+msgid "Create Date"
+msgstr "Data de creació"
+
+msgctxt "field:sale.opportunity.campaign-party.party,create_uid:"
+msgid "Create User"
+msgstr "Usuari de creació"
+
+msgctxt "field:sale.opportunity.campaign-party.party,id:"
+msgid "ID"
+msgstr "Identificador"
+
+msgctxt "field:sale.opportunity.campaign-party.party,party:"
+msgid "Party"
+msgstr "Tercer"
+
+msgctxt "field:sale.opportunity.campaign-party.party,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:sale.opportunity.campaign-party.party,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
 msgctxt "field:sale.opportunity.create_campaign.start,all_contacts:"
 msgid "All Contacts"
 msgstr "Tots els contactes"
 
+msgctxt "field:sale.opportunity.create_campaign.start,create_leads:"
+msgid "Create Leads"
+msgstr "Crear iniciatives"
+
+msgctxt "field:sale.opportunity.create_campaign.start,create_leads:"
+msgid "Create Leads"
+msgstr "Crear iniciatives"
+
 msgctxt "field:sale.opportunity.create_campaign.start,relation:"
 msgid "Relation"
 msgstr "Relació"
+
+<<<<<<<
+=======
+msgctxt "field:sale.opportunity.create_campaign.start,relation_visible:"
+msgid "Relation Visible"
+msgstr "Relació visible"
+
+msgctxt "help:sale.opportunity.create_campaign.start,all_contacts:"
+msgid ""
+"If marked a lead will be created for each contact of the  selected type. "
+>>>>>>>
+msgctxt "field:sale.opportunity.create_campaign.start,relation_visible:"
+msgid "Relation Visible"
+msgstr "Relació visible"
 
 msgctxt "help:sale.opportunity.create_campaign.start,all_contacts:"
 msgid ""
@@ -17,3 +111,25 @@ msgid ""
 msgstr ""
 "Si es marca es generarà una iniciativa per a cada un dels contactes del "
 "tipus seleccionat. Sinó només s'utilitzarà el primer."
+
+msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
+msgid ""
+"If marked a lead will be created for each party and related to the party"
+msgstr ""
+"Si es marca es crearà una iniciativa per a cada tercer, i es relacionarà amb"
+" la campanya."
+
+msgctxt "wizard_button:sale.opportunity.create_campaign,start,create_:"
+msgid "Create"
+msgstr "Crear"
+
+msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
+msgid ""
+"If marked a lead will be created for each party and related to the party"
+msgstr ""
+"Si es marca es crearà una iniciativa per a cada tercer, i es relacionarà amb"
+" la campanya."
+
+msgctxt "wizard_button:sale.opportunity.create_campaign,start,create_:"
+msgid "Create"
+msgstr "Crear"
