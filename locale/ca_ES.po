@@ -90,27 +90,17 @@ msgctxt "field:sale.opportunity.create_campaign.start,relation:"
 msgid "Relation"
 msgstr "Relació"
 
-<<<<<<<
-=======
 msgctxt "field:sale.opportunity.create_campaign.start,relation_visible:"
 msgid "Relation Visible"
 msgstr "Relació visible"
 
 msgctxt "help:sale.opportunity.create_campaign.start,all_contacts:"
 msgid ""
-"If marked a lead will be created for each contact of the  selected type. "
->>>>>>>
-msgctxt "field:sale.opportunity.create_campaign.start,relation_visible:"
-msgid "Relation Visible"
-msgstr "Relació visible"
-
-msgctxt "help:sale.opportunity.create_campaign.start,all_contacts:"
-msgid ""
-"If marked a lead will be created for each contact of the  selected type. "
-"Otherwise only the first one fill be used."
+"If marked a lead will be created for each contact of the selected type. "
+"Otherwise only the first one will be used."
 msgstr ""
 "Si es marca es generarà una iniciativa per a cada un dels contactes del "
-"tipus seleccionat. Sinó només s'utilitzarà el primer."
+"tipus seleccionat. Si no, només s'utilitzarà el primer."
 
 msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
 msgid ""

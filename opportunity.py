@@ -112,7 +112,7 @@ class CreateCampaignStart:
             },
         depends=['relation'],
         help='If marked a lead will be created for each contact of the '
-        ' selected type. Otherwise only the first one fill be used.')
+        'selected type. Otherwise only the first one will be used.')
 
 
 class CreateCampaign:
