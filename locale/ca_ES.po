@@ -80,11 +80,7 @@ msgstr "Tots els contactes"
 
 msgctxt "field:sale.opportunity.create_campaign.start,create_leads:"
 msgid "Create Leads"
-msgstr "Crear iniciatives"
-
-msgctxt "field:sale.opportunity.create_campaign.start,create_leads:"
-msgid "Create Leads"
-msgstr "Crear iniciatives"
+msgstr "Crea iniciatives"
 
 msgctxt "field:sale.opportunity.create_campaign.start,relation:"
 msgid "Relation"
@@ -111,7 +107,7 @@ msgstr ""
 
 msgctxt "wizard_button:sale.opportunity.create_campaign,start,create_:"
 msgid "Create"
-msgstr "Crear"
+msgstr "Crea"
 
 msgctxt "help:sale.opportunity.create_campaign.start,create_leads:"
 msgid ""
@@ -122,4 +118,4 @@ msgstr ""
 
 msgctxt "wizard_button:sale.opportunity.create_campaign,start,create_:"
 msgid "Create"
-msgstr "Crear"
+msgstr "Crea"
